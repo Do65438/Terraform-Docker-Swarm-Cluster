@@ -1,13 +1,13 @@
 variable "aws_region" {
-  default = "us-east-1"
+  default = "eu-north-1"
 }
 
 variable "key_name" {
-  default = "stagingPEM"
+  default = "nlb"
 }
 
 variable "key_path" {
-  default = "D:/Mine/awskeys/stagingPEM.pem"
+  default = "Downloads/nlb.pem"
 }
 
 variable "instance_type" {
